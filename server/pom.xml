@@ -61,6 +61,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+			   <plugin>
+					<groupId>com.fortify.sca.plugins.maven</groupId>
+					<artifactId>sca-maven-plugin</artifactId>
+					<version>19.2.0</version>				
+            </plugin>
         </plugins>
     </build>
 </project>

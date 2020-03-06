@@ -32,6 +32,7 @@ public class Beer {
     }
 
     public void setName(String name) {
+      name += "TESITITSTITS"
         this.name = name;
     }
 
