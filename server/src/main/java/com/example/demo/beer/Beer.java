@@ -17,6 +17,7 @@ public class Beer {
 
     public Beer(String name) {
         this.name = name;
+        this.name = name + name;
     }
 
     public Long getId() {
